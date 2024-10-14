@@ -1,2 +1,4 @@
 BLUE: #93B5C9
 WINE: #AB2849
+<div class="box"></div>
+            <div class="box" style="margin-top: 0.6rem;"></div>
