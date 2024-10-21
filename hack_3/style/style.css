@@ -4,22 +4,7 @@
 }
 
 
-.parent{
-    position:relative;
-}
-.child{
-    width: 100vw;
-    height: 100vh;
-    background-size:contain;
-    background-repeat:no-repeat;
-    background-image: url(/hack_3/hack_3.png);
-    background-position: center center;
-    z-index: 3;
-    position: absolute;
-    border: 1px solid;
-    opacity: 0.5;
 
-}
 
 .body{
     width: 100%;
