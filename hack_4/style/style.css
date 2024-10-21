@@ -1,0 +1,181 @@
+/*----------------------------
+FONT: RUDA
+
+TEXT: end of season
+TEXT: sale -COLOR: #B88940
+TEXT: 50 % off  
+
+----------------------------
+FONT: Catamaran
+
+TEXT: Lorem ipsum dolor sit amet
+TEXT: Lorem $0.00
+
+----------------------------
+FONT: Open sans Extra Bold
+
+TEXT: your fashion -COLOR: #B88940
+
+----------------------------
+FONT: Catamaran
+
+TEXT: Lorem ipsum dolor sit amet
+
+----------------------------
+FRANJAS AMARILLAS  -COLOR: #FFBD59
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-primary: #B88940;
+    --color-secondary: black;
+    --color-tertiary: #FFBD59;
+    --font-primary: 'Ruda';
+    --font-secondary: 'Catamaran';
+    --font-tertiary: 'Open Sans';
+}
+.relative{
+    position: relative;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4.05rem;
+    flex-direction: column;
+}
+
+.separator{
+    width: 4rem;
+    height: 5px;
+    background-color: var(--color-secondary);
+    border-radius: 10px;
+    
+}
+.title{
+    font-family: var(--font-primary);
+    font-size: 1.3rem;
+    font-weight: 900;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.2rem;
+    color: var(--color-secondary);
+    padding-top: 1.9rem;
+    padding-left: 0.15rem;
+}
+.sale{
+    font-family: var(--font-primary);
+    font-size: 6rem;
+    font-weight: 900; 
+    color: var(--color-primary);
+    position: absolute;
+    top: -0.9rem;
+    left: -7.8rem;
+    letter-spacing: 0.85rem;
+}
+.discount{
+    font-family: var(--font-primary);
+    font-size: 2.7rem;
+    font-weight: 900;
+    color: var(--color-secondary);
+    padding-top: 6.5rem;
+  
+}
+
+.text{
+    font-family: var(--font-secondary);
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--color-secondary);
+    padding-top: 0.8rem;
+    letter-spacing: 2.4px;
+    word-spacing: 4.4px;
+}
+
+
+.yellow-box{
+    width: 43.3rem;
+    height: 1.5rem;
+    background-color: var(--color-tertiary);
+    position: absolute;
+    
+    left: -21.6rem;
+   
+}	
+
+.photos{
+ 
+    margin-top: 6.5rem;
+    width: 30rem;
+    height: 17rem;
+    padding: 0rem;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 155px;
+    height: 235px;
+    margin-bottom: 0.5rem;
+    
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+}
+.price{
+    font-family: var(--font-secondary);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-secondary);
+    padding-top: 1rem;
+    padding-left: 1.4rem;
+    
+}
+
+ 
+h3{
+     margin-top: 6.8rem;
+   
+
+    font-family: var(--font-tertiary);
+    font-size: 33px;
+    font-weight: 800;
+    color: var(--color-primary);
+    letter-spacing: 3.7px;
+    padding-right: 6px;
+    padding-top: 10px;
+}
+
+.text2{
+    position: absolute;
+    top: -11.5px;
+    left: -125px;
+    width: 400px;
+    font-family: var(--font-secondary);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.parent{
+    position:relative;
+}
+.child{
+    width: 100vw;
+    height: 100vh;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-image: url(/hack_4/hack_4.png);
+    background-position: center center;
+    z-index: 3;
+    position: absolute;
+    border: 1px solid;
+    opacity:0.5;
+
+}
