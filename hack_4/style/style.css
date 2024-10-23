@@ -127,7 +127,7 @@ FRANJAS AMARILLAS  -COLOR: #FFBD59
     width: 100%;
     height: 100%;
     object-fit: cover;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.rem;
 }
 .price{
     font-family: var(--font-secondary);
@@ -163,19 +163,4 @@ h3{
     font-weight: 700;
 }
 
-.parent{
-    position:relative;
-}
-.child{
-    width: 100vw;
-    height: 100vh;
-    background-size:contain;
-    background-repeat:no-repeat;
-    background-image: url(/hack_4/hack_4.png);
-    background-position: center center;
-    z-index: 3;
-    position: absolute;
-    border: 1px solid;
-    opacity:0.5;
 
-}
